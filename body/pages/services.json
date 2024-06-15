@@ -1,0 +1,20 @@
+{
+    "items" :[
+        {
+            "sys":{"id" : "1"},
+            "fields" :{
+                "title" : "Biometrics Attendance System",
+                "price" : 50000,
+                "image" :{"fields":{"file":{"url": "images/4402130.jpeg"}}}
+            }
+        },
+        {
+            "sys":{"id" : "2"},
+            "fields" :{
+                "title" : "Bluethooth Beacon Attendance System",
+                "price" : 50000,
+                "image" :{"fields":{"file":{"url": "images/4402130.jpeg"}}}
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+body{
+    background-color: lightsalmon;
+}
+*{
+    box-sizing: border-box;
+    display: flexbox;
+}
+.container{
+    margin: auto;
+    padding: 15px ;
+    background-color: white;
+    box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.7);
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    border: none;
+    padding: 16px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    background: whitesmoke;
+}
+input[type="email"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.registerbtn{
+    background-color: lightsalmon;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+    opacity: 0.8;
+}
+.registerbtn:hover{
+    opacity: 1;
+}
